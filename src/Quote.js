@@ -1,9 +1,10 @@
 import './Quote.css';
-
+import './index.js'
 function Quote()  {
     return(
-        <div>
-            <h4>hi this is Quote</h4>
+        <div id="title">
+            <h4>Welcome to the website</h4>
+            <p>This should only be a small chunk of the body</p>
         </div>
     )
 }

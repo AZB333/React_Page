@@ -1,7 +1,6 @@
-html{
-  margin-top: -16px
+*{
+  margin: 0;
 }
-
 .App {
   text-align: center;
 }
@@ -13,12 +12,12 @@ html{
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 50s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #D9DD92;
   min-height: 30vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +25,8 @@ html{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border: 0.1em solid brown;
+
 }
 
 .App-link {
